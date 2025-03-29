@@ -1,5 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Activity } from 'lucide-react';
@@ -10,7 +8,7 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center gap-2">
           <Activity className="h-6 w-6" />
-          <h1 className="text-xl font-bold">Earthquake Predictor</h1>
+          <Link to="/" className="text-xl font-bold">Earthquake Predictor</Link>
         </div>
         <nav>
           <ul className="flex gap-6">
